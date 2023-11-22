@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1{
+            height:10vh;
+            width:10vw;
+            background-color: blanchedalmond;
+            /* transformproperty */
+            /*  div moving purpose...x and y..x is used right side move..then y is botttom moving */
+            transform:translatex(100px); 
+            /* transform:translate(100px,200px); */ 
+            font-size: 30px;
+        }#p2{
+            height:10vh; 
+            width:10vw;
+            background-color: rgb(172, 136, 82);
+             transform:translatex(200px); 
+             margin-top: 10px;
+             font-size: 30px;
+            
+             
+             
+
+        }
+        #p2{
+            transform:skew(30deg) !important;
+            transform:rotate(60deg);
+            animation-name: example; 
+        }
+        
+        #p3{
+            height:25vh;
+            width:10vw;
+            background-color: blueviolet;
+            /* deg values animation part */
+            transform:rotate(30deg);
+            /* transform:translateY(5px); */
+            /* scale hover meethods */
+            /* transform:scale(150%) */
+            margin-top: 50px;
+            font-size: 30px;
+
+        }#p4{
+            height:15vh;
+            width:15vw;
+            background-color:rgb(171, 96, 96);
+            margin-top: 50px;
+            transform: scale(150%); 
+            transform:rotate(60deg); 
+            animation-name: example;
+            transform:5s;
+            animation-duration: 10s;
+
+        }
+        /* animation */
+        @keyframes example{
+
+0%{
+    background-color: blueviolet;
+    transform: translatey(50%);
+}
+10%{
+    background-color: aqua;
+    transform: skew(50deg);
+}
+50%{
+   
+ background-color: rgb(107, 107, 215);
+ transform: rotate(30deg);
+ transform: skew(100deg);
+ border-radius: 30%;
+ transform:translate(500px);
+  transform: translate(100%,40%)); 
+}
+
+} 
+        
+        
+    </style>
+</head>
+<body>
+   <div id="p1"> <p>x</p></div> 
+   <div id="p2">y</div>
+   <div id="p3">
+<P>z</P>
+   </div>
+   <div id="p4">
+    <div id="p41"></div>
+   </div>
+   
+</body>
+</html>

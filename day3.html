@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- three type of import..1.inline..2.internal..3.external -->
+    <link rel="stylesheet" href="day3.css"/>
+    <style>
+        p{
+            color:rgb(7, 7, 134);
+        }
+        /* id selector */
+        #ptag1{
+            font-size:30px;
+        }
+        /* class selector */
+        .ptag2{
+            color:burlywood;
+        }
+    /* sudo class */
+        .ptag2:hover
+        {
+         color: blue  ;
+        }
+        /* sodo elements */
+        .ptag2::first-letter{
+           font-size: 50px; 
+        }
+        .ptag2::first-line{
+            color: brown;
+        }
+        /* find db space */
+        #bg1
+        {
+      /* background-color:rgb(210, 51, 51) ; */
+      width: 50vw;
+      height:25vh;
+      background-size:contain;
+     /* background-color: rgb(155, 97, 97); */
+    
+       /* background-position: bottom right; */
+       overflow:scroll ;
+    
+}
+ #bg1 p{
+    font-size: 30px;
+    background-image: url("WhatsApp\ Image\ 2023-11-03\ at\ 2.41.44\ AM.jpeg" ); 
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+}
+        
+        
+    </style>
+</head>
+<body>
+    <!-- css -->
+   <div>
+    <p style="font-size: 50px;">Britain</p>
+    <!-- <p style="font-weight: 500;"></p> -->
+    <p>UK special streets Oxfort Street</p>
+    <p id="ptag1"> Britains greatest shopping streets</p>
+    <!-- one design mutiple use -->
+    <p class="ptag2"> United kingdom</p>
+    <p class="ptag2">uk</p>
+    <p class="ptag2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos cum impedit nobis ducimus quidem dolorum quibusdam voluptatibus nemo laboriosam ratione harum, a, libero pariatur voluptatum facere iure deleniti assumenda ut!</p>
+    <!-- background -->
+ <div id="bg1">
+    <p> 
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, adipisci tempora odit, cupiditate cumque quas perspiciatis saepe ad voluptate praesentium molestias reiciendis recusandae officia, laboriosam non ut! Sit, perferendis voluptate.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cum earum nostrum ullam, nam quas molestiae cupiditate laudantium veniam quo et consectetur neque, atque saepe quia adipisci similique facere ratione?
+    </p>
+    
+ </div>
+</div> 
+   
+</body>
+</html>

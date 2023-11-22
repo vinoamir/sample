@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1{
+            height:50vh; 
+            width:50vw;
+            background-color: blanchedalmond;
+             transform:5s; 
+             animation-name: example;
+             animation-duration: 5s;
+
+             
+        }     
+    @keyframes example {
+        0%{
+    background-color: blueviolet;
+}
+10%{
+    background-color: aqua;
+    transform: skew(50deg);
+}
+50%{
+   
+ background-color: rgb(107, 107, 215);
+ transform: rotate(30deg);
+}
+        
+    }
+    
+        
+    </style>
+</head>
+<body>
+    <div id="p1"></div>
+</body>
+</html>
